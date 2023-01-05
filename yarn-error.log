@@ -1,0 +1,75 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Omira\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @mui/icons-material
+
+PATH: 
+  C:\Users\Omira\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Omira\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Users\Omira\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Omira\AppData\Local\Microsoft\WindowsApps;C:\Users\Omira\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Omira\AppData\Local\GitHubDesktop\bin;C:\Users\Omira\AppData\Roaming\npm;C:\Users\Omira\AppData\Local\Programs\Hyper\resources\bin;C:\Users\Omira\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  18.0.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@mui/material/-/material-5.10.17.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Omira\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141510:19)
+      at Object.onceWrapper (node:events:641:28)
+      at ClientRequest.emit (node:events:527:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:770:9)
+      at Object.onceWrapper (node:events:641:28)
+      at TLSSocket.emit (node:events:539:35)
+      at Socket._onTimeout (node:net:522:8)
+      at listOnTimeout (node:internal/timers:564:17)
+      at process.processTimers (node:internal/timers:507:7)
+
+npm manifest: 
+  {
+    "name": "youtube_clone2.0",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+      "@emotion/react": "^11.10.0",
+      "@emotion/styled": "^11.10.0",
+      "@mui/icons-material": "^5.8.4",
+      "@mui/material": "^5.9.3",
+      "axios": "^0.27.2",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-player": "^2.10.1",
+      "react-router-dom": "^6.3.0",
+      "react-scripts": "^5.0.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
